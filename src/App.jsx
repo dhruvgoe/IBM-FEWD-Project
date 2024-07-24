@@ -1,3 +1,5 @@
+// App.jsx
+import React, { useState } from "react";
 import Challenge from "./components/Challenge";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -6,17 +8,30 @@ import Inequities from "./components/Inequities";
 import Introduction from "./components/Introduction";
 import Solutions from "./components/Solutions";
 import Stratergies from "./components/Stratergies";
+import Loader from "./components/Loader";
+
 function App() {
+  const [loading, setLoading] = useState(true);
+
   return (
-    <div className="w-full min-h-screen overflow-x-hidden overflow-y-auto">
-      <Header></Header>
-      <Introduction></Introduction>
-      <Importance></Importance>
-      <Stratergies></Stratergies>
-      <Inequities></Inequities>
-      <Challenge></Challenge>
-      <Solutions></Solutions>
-      <Footer></Footer>
+    <div
+      className={`w-full min-h-screen overflow-x-hidden ${
+        loading ? "overflow-hidden" : "overflow-y-auto"
+      }`}
+    >
+      {loading && <Loader setLoading={setLoading} />}
+      {!loading && (
+        <>
+          <Header />
+          <Introduction />
+          <Importance />
+          <Stratergies />
+          <Inequities />
+          <Challenge />
+          <Solutions />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
