@@ -6,8 +6,10 @@ This project is a frontend website focused on UN Sustainable Development Goal 3:
 
 ## Technologies Used
 HTML
-CSS + Tailwind
-JavaScript + React
+
+CSS + Tailwind CSS (Framework)
+
+JavaScript + ReactJS (Framework)
 
 ## Importance of United Nations SDG 3
 Good Health and Well Being is crucial for sustainable development. This goal aims to ensure healthy lives and promote well-being for everyone. Achieving this goal requires addressing various health challenges such as maternal health, child mortality, infectious diseases, and mental health issues.
