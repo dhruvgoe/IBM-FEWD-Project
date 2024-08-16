@@ -35,4 +35,4 @@ Good Health and Well Being is crucial for sustainable development. This goal aim
 **Health Systems**: Discussing the importance of strengthening health systems and ensuring universal health coverage.
 
 ## Acknowledgements
-This project was developed during a 6-week summer internship program from IBM SkillsBuild. We would like to thank IBM for providing us with this opportunity to learn and grow in our skills. Special thanks to our mentors and teammates for their support and collaboration.
+This project was developed during a 6-week summer internship program from IBM SkillsBuild. We would like to thank IBM for providing us with this opportunity to learn and grow in our skills. Special thanks to our mentors and teammates for their support and collaboration
